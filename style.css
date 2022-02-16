@@ -5,6 +5,21 @@ body {
     font-family: 'Fugaz One', cursive;
     font-size: 40px;
   }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: white;
+  }
+  p {
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .textContainer{
+    padding: 30px;
+
+  }
+  /* header styling */
   .logo {
     height: 100px;
   }
@@ -25,39 +40,25 @@ body {
   header p {
     display: inline-block;
   }
+  /* hero image styling*/
   .heroImg {
-    background-color: #EBEBEB;
-    padding: 25px 15px;
-    background-image: url(../images/heroimage3.png);
+    background-color: #3a2d32;
+    width: 100%;
+    max-height: 800px;
   }
-  .heroflex{
-    display: flex;
-    flex-direction: row;
+  #heroImage{
+    width: 100%;
+    max-height: 800px;
+    border:none;
+  }
+  /* project descripton styling */
+  #projectInfo{
+    padding: 5%;
+    background-color: #3a2d32;
     align-items: center;
     justify-content: center;
   }
-  .bioimage{
-    height: 225px;
-    border-radius: 15px;
-  }
-  .content {
-    max-width: 30%;
-    min-height: 200px;
-    margin: 0 auto;
-    padding: 50px;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    font-size: 22px;
-    font-family:'Montserrat', sans-serif;
-  }
-  #projectInfo{
-    padding: 10%;
-    font-size: 20px;
-    font-family:'Montserrat', sans-serif;;
-    background-color: aqua;
-    color: white;
-  }
+  /* section with images styling for grid layout*/
   .sectionImg{
     grid-area: "Image";
   }
@@ -68,9 +69,10 @@ body {
     padding: 10%;
     font-size: 20px;
     font-family:'Montserrat', sans-serif;;
-    background-color: red;
+    background-color: #3a2d32f5;
     color: white;
     display: grid;
+    column-gap: 20%;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "Copy Image";
@@ -79,16 +81,23 @@ body {
     padding: 10%;
     font-size: 20px;
     font-family:'Montserrat', sans-serif;;
-    background-color: palegreen;
+    background-color: #3a2d32;
     color: white;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "Image Copy";
   }
+  /**/
+  #homepage{
+    height: 500px;
+    border-radius: 5px;
+  }
+  /* prototype section styling */
   #prototype{
     padding:10%;
     background-color: blue;
   }
+  /*conclusion section styling*/
   #conclusion{
     padding: 10%;
     font-size: 20px;
@@ -96,6 +105,7 @@ body {
     background-color: aqua;
     color: white;
   }
+  /* footer styling */
   footer {
     background-color: #3a2d32;
     padding: 5px;
