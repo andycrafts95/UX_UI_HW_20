@@ -51,3 +51,64 @@ body {
     font-size: 22px;
     font-family:'Montserrat', sans-serif;
   }
+  #projectInfo{
+    padding: 10%;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;;
+    background-color: aqua;
+    color: white;
+  }
+  .sectionImg{
+    grid-area: "Image";
+  }
+  .sectionCopy{
+    grid-area: "Copy";
+  }
+  .sectionLeft{
+    padding: 10%;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;;
+    background-color: red;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Copy Image";
+  }
+  .sectionRight{
+    padding: 10%;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;;
+    background-color: palegreen;
+    color: white;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Image Copy";
+  }
+  #prototype{
+    padding:10%;
+    background-color: blue;
+  }
+  #conclusion{
+    padding: 10%;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;;
+    background-color: aqua;
+    color: white;
+  }
+  footer {
+    background-color: #3a2d32;
+    padding: 5px;
+    color: white;
+    position: static;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+  }
