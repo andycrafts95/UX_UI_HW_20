@@ -83,6 +83,8 @@ body {
     font-family:'Montserrat', sans-serif;;
     background-color: #3a2d32;
     color: white;
+    display: grid;
+    column-gap: 20%;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "Image Copy";
@@ -103,6 +105,11 @@ body {
   }
   #prototypeImage{
     height: 500px;
+  }
+  /*tesing image styling*/
+  #testingImage{
+    height: 500px;
+    border-radius: 7px;
   }
   /*conclusion section styling*/
   #conclusion{
