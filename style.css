@@ -37,7 +37,7 @@ body {
   /* project descripton styling */
   #projectInfo{
     padding: 5%;
-    background-color: #3a2d32;
+    background-color: #3d3c49;
     align-items: center;
     justify-content: center;
   }
@@ -52,7 +52,7 @@ body {
     padding: 5%;
     font-size: 20px;
     font-family:'Montserrat', sans-serif;;
-    background-color: #3a2d32f5;
+    background-color: #3d3c49ea;
     color: white;
     display: grid;
     column-gap: 15%;
@@ -64,7 +64,7 @@ body {
     padding: 5%;
     font-size: 20px;
     font-family:'Montserrat', sans-serif;;
-    background-color: #3a2d32;
+    background-color: #3d3c49;
     color: white;
     display: grid;
     column-gap: 15%;
@@ -81,11 +81,11 @@ body {
   
   /* prototype section styling */
   #prototype{
-    padding-left:35%;
+    padding-left: 28%;
     padding-right: 35%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #3a2d32;
+    background-color: #3d3c49;
   }
   #prototypeImage{
     border-radius: 7px;
@@ -97,12 +97,12 @@ body {
     padding: 10%;
     font-size: 20px;
     font-family:'Montserrat', sans-serif;;
-    background-color: #3a2d32f5;
+    background-color: #3d3c49ea;
     color: white;
   }
   /* footer styling */
   footer {
-    background-color: #3a2d32;
+    background-color: #3d3c49;
     padding: 5px;
     color: white;
     position: static;
